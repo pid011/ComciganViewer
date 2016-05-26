@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="ApplicationName">ComciganTimetable</string>
+  <string name="start_intro1">Timetable</string>
+  <string name="start_intro2">컴시간 어플!</string>
+  <string name="settings">설정</string>
+  <string name="creator">제작자</string>
+  <string name="Timetable">시간표</string>
+</resources>
