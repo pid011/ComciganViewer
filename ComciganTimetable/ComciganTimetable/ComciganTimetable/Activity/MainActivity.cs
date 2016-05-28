@@ -3,6 +3,7 @@ using Android.OS;
 using Android.Support.V7.App;
 using Android.Views;
 using Android.Webkit;
+using Java.Lang;
 using toolbar = Android.Support.V7.Widget.Toolbar;
 
 namespace Timetable
@@ -30,7 +31,14 @@ namespace Timetable
 			web_view = FindViewById<WebView>(Resource.Id.main_webview);
 			web_view.SetWebViewClient(new ComciganWebViewClient());
 
-			web_view.LoadUrl("http://112.186.146.96:4080/");
+
+			CookieManager cookieManager = CookieManager.Instance;
+			if(Android.OS.Build.VERSION.SdkInt >= Android.OS.BuildVersionCodes.Lollipop)
+			{
+				//Passing in the WebView instance and true to accept
+				cookieManager.SetAcceptThirdPartyCookies(web_view, true);
+			}
+			web_view.LoadUrl("http://m.naver.com");
 			web_view.Settings.JavaScriptEnabled = true;
 			web_view.SetScrollContainer(true);
 			web_view.Settings.DomStorageEnabled = true;
