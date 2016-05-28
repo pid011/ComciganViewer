@@ -30,7 +30,6 @@ namespace Timetable
 
 			SetSupportActionBar(toolbar);
 			SupportActionBar.Title = GetString(Resource.String.Timetable);
-			SupportActionBar.SetDisplayShowTitleEnabled(false);
 			SupportActionBar.SetDisplayShowHomeEnabled(true);
 			SupportActionBar.SetHomeButtonEnabled(true);
 
@@ -45,19 +44,19 @@ namespace Timetable
 			web_view.Settings.DomStorageEnabled = true;
 			
 		}
-		public override bool OnPrepareOptionsMenu(IMenu menu)
+
+		public override bool OnCreateOptionsMenu(IMenu menu)
 		{
 			MenuInflater.Inflate(Resource.Menu.toolbar_menu, menu);
-			return base.OnPrepareOptionsMenu(menu);
+			return base.OnCreateOptionsMenu(menu);
 		}
+
 		public override bool OnOptionsItemSelected(IMenuItem item)
 		{
 			switch(item.ItemId)
 			{
-				case (Resource.Id.action_settings):
-					break;
-
 				case (Resource.Id.action_creator):
+					StartActivity(typeof(AboutMeActivity));
 					break;
 			}
 			return base.OnOptionsItemSelected(item);
