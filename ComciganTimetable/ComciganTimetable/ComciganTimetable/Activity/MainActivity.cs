@@ -11,13 +11,14 @@ using Android.Views.InputMethods;
 using Android.Content;
 using Android.Views;
 using Android.Webkit;
+using toolbar = Android.Support.V7.Widget.Toolbar;
+using Timetable;
 
-namespace ComciganTimetable
+namespace Timetable
 {
-	[Activity(Label = "ComciganTimetable",
-		MainLauncher = true,
-		Theme ="@style/MyTheme", 
-		Icon = "@drawable/icon")]
+	[Activity(Label = "Timetable",
+		Icon = "@drawable/icon",
+		Theme = "@style/TimetableTheme")]
 	public class MainActivity : AppCompatActivity
 	{
 		WebView web_view;
@@ -27,7 +28,9 @@ namespace ComciganTimetable
 
 			SetContentView(Resource.Layout.Main);
 
-			var toolbar = FindViewById<Android.Support.V7.Widget.Toolbar>(Resource.Id.toolbar);
+			
+
+			var toolbar = FindViewById<toolbar>(Resource.Id.toolbar);
 
 			SetSupportActionBar(toolbar);
 			SupportActionBar.Title = GetString(Resource.String.Timetable);

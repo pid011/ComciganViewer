@@ -11,7 +11,7 @@ using Android.Views;
 using Android.Widget;
 using Android.Webkit;
 
-namespace ComciganTimetable
+namespace Timetable
 {
 	public class ComciganWebViewClient : WebViewClient
 	{

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8" ?>
 <resources>
-  <style name="MyTheme.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+  <style name="TimetableTheme.Base" parent="Theme.AppCompat.Light.DarkActionBar">
     <item name="windowNoTitle">true</item>
     <item name="windowActionBar">false</item>
     <item name="android:windowBackground">?android:attr/colorBackground</item>
@@ -11,6 +11,11 @@
     <item name="android:textColorSecondary">@color/secondary_text</item>
   </style>
 
-  <style name="MyTheme" parent="MyTheme.Base">
+  <style name="TimetableTheme" parent="TimetableTheme.Base">
+  </style>
+  
+  <style name="TimetableTheme.Splash" parent ="Theme.AppCompat.Light">
+    <item name="android:windowBackground">@drawable/splash_screen</item>
+    <item name="android:windowNoTitle">true</item>
   </style>
 </resources>

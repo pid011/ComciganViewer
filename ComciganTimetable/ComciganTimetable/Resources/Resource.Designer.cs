@@ -9,9 +9,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Android.Runtime.ResourceDesignerAttribute("ComciganTimetable.Resource", IsApplication=true)]
+[assembly: global::Android.Runtime.ResourceDesignerAttribute("Timetable.Resource", IsApplication=true)]
 
-namespace ComciganTimetable
+namespace Timetable
 {
 	
 	
@@ -952,32 +952,32 @@ namespace ComciganTimetable
 		public partial class Color
 		{
 			
-			// aapt resource value: 0x7f0b004b
-			public const int abc_background_cache_hint_selector_material_dark = 2131427403;
+			// aapt resource value: 0x7f0b004e
+			public const int abc_background_cache_hint_selector_material_dark = 2131427406;
 			
-			// aapt resource value: 0x7f0b004c
-			public const int abc_background_cache_hint_selector_material_light = 2131427404;
+			// aapt resource value: 0x7f0b004f
+			public const int abc_background_cache_hint_selector_material_light = 2131427407;
 			
-			// aapt resource value: 0x7f0b004d
-			public const int abc_color_highlight_material = 2131427405;
+			// aapt resource value: 0x7f0b0050
+			public const int abc_color_highlight_material = 2131427408;
 			
 			// aapt resource value: 0x7f0b0000
 			public const int abc_input_method_navigation_guard = 2131427328;
 			
-			// aapt resource value: 0x7f0b004e
-			public const int abc_primary_text_disable_only_material_dark = 2131427406;
-			
-			// aapt resource value: 0x7f0b004f
-			public const int abc_primary_text_disable_only_material_light = 2131427407;
-			
-			// aapt resource value: 0x7f0b0050
-			public const int abc_primary_text_material_dark = 2131427408;
-			
 			// aapt resource value: 0x7f0b0051
-			public const int abc_primary_text_material_light = 2131427409;
+			public const int abc_primary_text_disable_only_material_dark = 2131427409;
 			
 			// aapt resource value: 0x7f0b0052
-			public const int abc_search_url_text = 2131427410;
+			public const int abc_primary_text_disable_only_material_light = 2131427410;
+			
+			// aapt resource value: 0x7f0b0053
+			public const int abc_primary_text_material_dark = 2131427411;
+			
+			// aapt resource value: 0x7f0b0054
+			public const int abc_primary_text_material_light = 2131427412;
+			
+			// aapt resource value: 0x7f0b0055
+			public const int abc_search_url_text = 2131427413;
 			
 			// aapt resource value: 0x7f0b0001
 			public const int abc_search_url_text_normal = 2131427329;
@@ -988,11 +988,11 @@ namespace ComciganTimetable
 			// aapt resource value: 0x7f0b0003
 			public const int abc_search_url_text_selected = 2131427331;
 			
-			// aapt resource value: 0x7f0b0053
-			public const int abc_secondary_text_material_dark = 2131427411;
+			// aapt resource value: 0x7f0b0056
+			public const int abc_secondary_text_material_dark = 2131427414;
 			
-			// aapt resource value: 0x7f0b0054
-			public const int abc_secondary_text_material_light = 2131427412;
+			// aapt resource value: 0x7f0b0057
+			public const int abc_secondary_text_material_light = 2131427415;
 			
 			// aapt resource value: 0x7f0b0046
 			public const int accent = 2131427398;
@@ -1102,6 +1102,9 @@ namespace ComciganTimetable
 			// aapt resource value: 0x7f0b0049
 			public const int icons = 2131427401;
 			
+			// aapt resource value: 0x7f0b004b
+			public const int intro_secondary_text = 2131427403;
+			
 			// aapt resource value: 0x7f0b001c
 			public const int material_blue_grey_800 = 2131427356;
 			
@@ -1195,23 +1198,29 @@ namespace ComciganTimetable
 			// aapt resource value: 0x7f0b0035
 			public const int secondary_text_disabled_material_light = 2131427381;
 			
+			// aapt resource value: 0x7f0b004d
+			public const int splash_background = 2131427405;
+			
 			// aapt resource value: 0x7f0b0036
 			public const int switch_thumb_disabled_material_dark = 2131427382;
 			
 			// aapt resource value: 0x7f0b0037
 			public const int switch_thumb_disabled_material_light = 2131427383;
 			
-			// aapt resource value: 0x7f0b0055
-			public const int switch_thumb_material_dark = 2131427413;
+			// aapt resource value: 0x7f0b0058
+			public const int switch_thumb_material_dark = 2131427416;
 			
-			// aapt resource value: 0x7f0b0056
-			public const int switch_thumb_material_light = 2131427414;
+			// aapt resource value: 0x7f0b0059
+			public const int switch_thumb_material_light = 2131427417;
 			
 			// aapt resource value: 0x7f0b0038
 			public const int switch_thumb_normal_material_dark = 2131427384;
 			
 			// aapt resource value: 0x7f0b0039
 			public const int switch_thumb_normal_material_light = 2131427385;
+			
+			// aapt resource value: 0x7f0b004c
+			public const int toolbar_background = 2131427404;
 			
 			static Color()
 			{
@@ -1767,8 +1776,14 @@ namespace ComciganTimetable
 			// aapt resource value: 0x7f020047
 			public const int Icon = 2130837575;
 			
+			// aapt resource value: 0x7f02004a
+			public const int notification_template_icon_bg = 2130837578;
+			
 			// aapt resource value: 0x7f020048
-			public const int notification_template_icon_bg = 2130837576;
+			public const int splash_logo = 2130837576;
+			
+			// aapt resource value: 0x7f020049
+			public const int splash_screen = 2130837577;
 			
 			static Drawable()
 			{
@@ -1810,8 +1825,8 @@ namespace ComciganTimetable
 			// aapt resource value: 0x7f06005b
 			public const int action_context_bar = 2131099739;
 			
-			// aapt resource value: 0x7f060081
-			public const int action_creator = 2131099777;
+			// aapt resource value: 0x7f060080
+			public const int action_creator = 2131099776;
 			
 			// aapt resource value: 0x7f060075
 			public const int action_divider = 2131099765;
@@ -1831,8 +1846,8 @@ namespace ComciganTimetable
 			// aapt resource value: 0x7f06003c
 			public const int action_mode_close_button = 2131099708;
 			
-			// aapt resource value: 0x7f060080
-			public const int action_settings = 2131099776;
+			// aapt resource value: 0x7f06007f
+			public const int action_settings = 2131099775;
 			
 			// aapt resource value: 0x7f06003d
 			public const int activity_chooser_view_content = 2131099709;
@@ -1959,9 +1974,6 @@ namespace ComciganTimetable
 			
 			// aapt resource value: 0x7f06003f
 			public const int image = 2131099711;
-			
-			// aapt resource value: 0x7f06007e
-			public const int imageView1 = 2131099774;
 			
 			// aapt resource value: 0x7f06007c
 			public const int info = 2131099772;
@@ -2149,8 +2161,8 @@ namespace ComciganTimetable
 			// aapt resource value: 0x7f060048
 			public const int title_template = 2131099720;
 			
-			// aapt resource value: 0x7f06007f
-			public const int toolbar = 2131099775;
+			// aapt resource value: 0x7f06007e
+			public const int toolbar = 2131099774;
 			
 			// aapt resource value: 0x7f060032
 			public const int top = 2131099698;
@@ -2365,16 +2377,10 @@ namespace ComciganTimetable
 			public const int select_dialog_singlechoice_material = 2130903088;
 			
 			// aapt resource value: 0x7f030031
-			public const int Start = 2130903089;
+			public const int support_simple_spinner_dropdown_item = 2130903089;
 			
 			// aapt resource value: 0x7f030032
-			public const int Start_properties = 2130903090;
-			
-			// aapt resource value: 0x7f030033
-			public const int support_simple_spinner_dropdown_item = 2130903091;
-			
-			// aapt resource value: 0x7f030034
-			public const int toolbar = 2130903092;
+			public const int toolbar = 2130903090;
 			
 			static Layout()
 			{
@@ -2407,6 +2413,18 @@ namespace ComciganTimetable
 			
 			// aapt resource value: 0x7f070016
 			public const int ApplicationName = 2131165206;
+			
+			// aapt resource value: 0x7f07001f
+			public const int NoOnline_ConnectDataRoaming = 2131165215;
+			
+			// aapt resource value: 0x7f07001e
+			public const int NoOnline_ConnectWiFi = 2131165214;
+			
+			// aapt resource value: 0x7f07001d
+			public const int NoOnline_msg = 2131165213;
+			
+			// aapt resource value: 0x7f07001c
+			public const int NoOnline_title = 2131165212;
 			
 			// aapt resource value: 0x7f07001b
 			public const int Timetable = 2131165211;
@@ -2937,12 +2955,6 @@ namespace ComciganTimetable
 			// aapt resource value: 0x7f090134
 			public const int Base_Widget_Design_TabLayout = 2131296564;
 			
-			// aapt resource value: 0x7f090145
-			public const int MyTheme = 2131296581;
-			
-			// aapt resource value: 0x7f090144
-			public const int MyTheme_Base = 2131296580;
-			
 			// aapt resource value: 0x7f090010
 			public const int Platform_AppCompat = 2131296272;
 			
@@ -3248,6 +3260,15 @@ namespace ComciganTimetable
 			
 			// aapt resource value: 0x7f0900ee
 			public const int ThemeOverlay_AppCompat_Light = 2131296494;
+			
+			// aapt resource value: 0x7f090145
+			public const int TimetableTheme = 2131296581;
+			
+			// aapt resource value: 0x7f090144
+			public const int TimetableTheme_Base = 2131296580;
+			
+			// aapt resource value: 0x7f090146
+			public const int TimetableTheme_Splash = 2131296582;
 			
 			// aapt resource value: 0x7f0900ef
 			public const int Widget_AppCompat_ActionBar = 2131296495;
