@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:text="About Me!"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:textSize="56dp" />
+    <TextView
+        android:text="2016년 기준 여주세종중학교 학생"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:textSize="24dp" />
+    <TextView
+        android:text="개발자 e-mail:"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:textSize="24dp" />
+    <TextView
+        android:text="deet1022@gmail.com"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:textSize="24dp" />
+    <TextView
+        android:text="본 앱은 오픈소스입니다."
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:textSize="24dp"
+        android:layout_marginTop="86.5dp"
+        android:layout_gravity="center" />
+    <Button
+        android:text="Github"
+        android:layout_width="131.0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/openGithub"
+        android:layout_gravity="center"
+        android:clickable="true"
+        android:textAllCaps="false" />
+</LinearLayout>

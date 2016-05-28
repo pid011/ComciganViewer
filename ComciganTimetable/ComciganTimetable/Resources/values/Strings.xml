@@ -3,8 +3,7 @@
   <string name="ApplicationName">컴시간알리미 뷰어</string>
   <string name="start_intro1">Timetable</string>
   <string name="start_intro2">컴시간알리미를 앱으로!</string>
-  <string name="settings">설정</string>
-  <string name="creator">제작자</string>
+  <string name="creator">AboutMe</string>
   <string name="Timetable">시간표</string>
   <string name="NoOnline_title">인터넷 연결 불가</string>
   <string name="NoOnline_msg">앱을 실행하려면 인터넷 연결이 필요합니다.</string>
