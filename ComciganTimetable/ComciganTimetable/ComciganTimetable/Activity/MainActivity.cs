@@ -11,7 +11,6 @@ using Android.Views.InputMethods;
 using Android.Content;
 using Android.Views;
 using Android.Webkit;
-using toolbar = Android.Support.V7.Widget.Toolbar;
 using Timetable;
 
 namespace Timetable
@@ -21,37 +20,36 @@ namespace Timetable
 		Theme = "@style/TimetableTheme")]
 	public class MainActivity : AppCompatActivity
 	{
-		WebView web_view;
 		protected override void OnCreate(Bundle bundle)
 		{
 			base.OnCreate(bundle);
-
 			SetContentView(Resource.Layout.Main);
 
-			
-
-			var toolbar = FindViewById<toolbar>(Resource.Id.toolbar);
+			Android.Support.V7.Widget.Toolbar toolbar = 
+				FindViewById<Android.Support.V7.Widget.Toolbar>(Resource.Id.toolbar);
 
 			SetSupportActionBar(toolbar);
 			SupportActionBar.Title = GetString(Resource.String.Timetable);
+			SupportActionBar.SetDisplayShowTitleEnabled(false);
 			SupportActionBar.SetDisplayShowHomeEnabled(true);
 			SupportActionBar.SetHomeButtonEnabled(true);
 
-			web_view = FindViewById<WebView>(Resource.Id.main_webview);
-			web_view.SetWebViewClient(new ComciganWebViewClient());
+			
+			
 
+			WebView web_view = FindViewById<WebView>(Resource.Id.main_webview);
+			web_view.SetWebViewClient(new ComciganWebViewClient());
 			web_view.LoadUrl("http://112.186.146.96:4080/");
 			web_view.Settings.JavaScriptEnabled = true;
 			web_view.SetScrollContainer(true);
 			web_view.Settings.DomStorageEnabled = true;
 			
 		}
-		public override bool OnCreateOptionsMenu(IMenu menu)
+		public override bool OnPrepareOptionsMenu(IMenu menu)
 		{
 			MenuInflater.Inflate(Resource.Menu.toolbar_menu, menu);
-			return true;
+			return base.OnPrepareOptionsMenu(menu);
 		}
-
 		public override bool OnOptionsItemSelected(IMenuItem item)
 		{
 			switch(item.ItemId)
