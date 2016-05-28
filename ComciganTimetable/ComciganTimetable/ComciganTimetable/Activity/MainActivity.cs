@@ -1,18 +1,9 @@
-﻿using System;
-using Android.App;
-using Android.Content.Res;
+﻿using Android.App;
 using Android.OS;
-using Android.Support.Design.Widget;
-using Android.Support.V4.Widget;
 using Android.Support.V7.App;
-using Android.Support.V7.Widget;
-using Android.Widget;
-using Android.Views.InputMethods;
-using Android.Content;
 using Android.Views;
 using Android.Webkit;
 using toolbar = Android.Support.V7.Widget.Toolbar;
-using Timetable;
 
 namespace Timetable
 {
@@ -21,14 +12,13 @@ namespace Timetable
 		Theme = "@style/TimetableTheme")]
 	public class MainActivity : AppCompatActivity
 	{
-		WebView web_view;
+		private WebView web_view;
+
 		protected override void OnCreate(Bundle bundle)
 		{
 			base.OnCreate(bundle);
 
 			SetContentView(Resource.Layout.Main);
-
-			
 
 			var toolbar = FindViewById<toolbar>(Resource.Id.toolbar);
 
@@ -44,8 +34,8 @@ namespace Timetable
 			web_view.Settings.JavaScriptEnabled = true;
 			web_view.SetScrollContainer(true);
 			web_view.Settings.DomStorageEnabled = true;
-			
 		}
+
 		public override bool OnCreateOptionsMenu(IMenu menu)
 		{
 			MenuInflater.Inflate(Resource.Menu.toolbar_menu, menu);
@@ -66,4 +56,3 @@ namespace Timetable
 		}
 	}
 }
-

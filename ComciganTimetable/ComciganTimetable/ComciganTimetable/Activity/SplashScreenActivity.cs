@@ -4,16 +4,13 @@ using Android.Net;
 using Android.OS;
 using Android.Support.V7.App;
 using System.Threading;
-using AlertDialog = Android.Support.V7.App.AlertDialog;
-using Android.Net.Wifi;
-
-using System;
 using System.Threading.Tasks;
+using AlertDialog = Android.Support.V7.App.AlertDialog;
 
 namespace Timetable
 {
-	[Activity(Theme = "@style/TimetableTheme.Splash", 
-		MainLauncher = true, 
+	[Activity(Theme = "@style/TimetableTheme.Splash",
+		MainLauncher = true,
 		NoHistory = true)]
 	public class SplashActivity : AppCompatActivity
 	{
@@ -30,29 +27,29 @@ namespace Timetable
 		{
 			base.OnResume();
 
-			
-
-			Task startupWork = new Task(() => {
+			Task startupWork = new Task(() =>
+			{
 				Thread.Sleep(1000);
 			});
 
-			startupWork.ContinueWith(t => {
+			startupWork.ContinueWith(t =>
+			{
 				CheckInternet();
 				if(isOnline)
 				{
 					StartActivity(new Intent(Application.Context, typeof(MainActivity)));
 				}
-				
 			}, TaskScheduler.FromCurrentSynchronizationContext());
 
 			startupWork.Start();
 		}
-		void CheckInternet()
+
+		private void CheckInternet()
 		{
 			ConnectivityManager manager = (ConnectivityManager)GetSystemService(ConnectivityService);
 
 			builder = new AlertDialog.Builder(this);
-			
+
 			NetworkInfo activeConnection = manager.ActiveNetworkInfo;
 			isOnline = (activeConnection != null) && activeConnection.IsConnected;
 			if(!isOnline)

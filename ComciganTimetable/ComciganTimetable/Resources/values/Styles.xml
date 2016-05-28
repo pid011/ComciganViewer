@@ -13,7 +13,7 @@
 
   <style name="TimetableTheme" parent="TimetableTheme.Base">
   </style>
-  
+
   <style name="TimetableTheme.Splash" parent ="Theme.AppCompat.Light">
     <item name="android:windowBackground">@drawable/splash_screen</item>
     <item name="android:windowNoTitle">true</item>
