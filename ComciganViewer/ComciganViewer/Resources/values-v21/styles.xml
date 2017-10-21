@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+  <style name="ComciganViewerTheme" parent="android:Theme.Material.Light">
+    <item name="android:colorPrimaryDark">@color/primaryDarkColor</item>
+    <item name="android:colorPrimary">@color/primaryColor</item>
+    <item name="android:colorAccent">@color/secondaryColor</item>
+    <item name="android:textColorPrimary">@color/primaryTextColor</item>
+    <item name="android:textColorSecondary">@color/secondaryTextColor</item>
+  </style>
+</resources>
