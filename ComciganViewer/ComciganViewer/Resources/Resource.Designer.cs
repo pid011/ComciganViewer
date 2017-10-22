@@ -2239,26 +2239,26 @@ namespace ComciganViewer
 			// aapt resource value: 0x7f020053
 			public const int avd_hide_password = 2130837587;
 			
-			// aapt resource value: 0x7f02006a
-			public const int avd_hide_password_1 = 2130837610;
-			
 			// aapt resource value: 0x7f02006b
-			public const int avd_hide_password_2 = 2130837611;
+			public const int avd_hide_password_1 = 2130837611;
 			
 			// aapt resource value: 0x7f02006c
-			public const int avd_hide_password_3 = 2130837612;
+			public const int avd_hide_password_2 = 2130837612;
+			
+			// aapt resource value: 0x7f02006d
+			public const int avd_hide_password_3 = 2130837613;
 			
 			// aapt resource value: 0x7f020054
 			public const int avd_show_password = 2130837588;
 			
-			// aapt resource value: 0x7f02006d
-			public const int avd_show_password_1 = 2130837613;
-			
 			// aapt resource value: 0x7f02006e
-			public const int avd_show_password_2 = 2130837614;
+			public const int avd_show_password_1 = 2130837614;
 			
 			// aapt resource value: 0x7f02006f
-			public const int avd_show_password_3 = 2130837615;
+			public const int avd_show_password_2 = 2130837615;
+			
+			// aapt resource value: 0x7f020070
+			public const int avd_show_password_3 = 2130837616;
 			
 			// aapt resource value: 0x7f020055
 			public const int design_bottom_navigation_item_background = 2130837589;
@@ -2279,49 +2279,52 @@ namespace ComciganViewer
 			public const int design_snackbar_background = 2130837594;
 			
 			// aapt resource value: 0x7f02005b
-			public const int navigation_empty_icon = 2130837595;
+			public const int ic_menu_blue_50_48dp = 2130837595;
 			
 			// aapt resource value: 0x7f02005c
-			public const int notification_action_background = 2130837596;
+			public const int navigation_empty_icon = 2130837596;
 			
 			// aapt resource value: 0x7f02005d
-			public const int notification_bg = 2130837597;
+			public const int notification_action_background = 2130837597;
 			
 			// aapt resource value: 0x7f02005e
-			public const int notification_bg_low = 2130837598;
+			public const int notification_bg = 2130837598;
 			
 			// aapt resource value: 0x7f02005f
-			public const int notification_bg_low_normal = 2130837599;
+			public const int notification_bg_low = 2130837599;
 			
 			// aapt resource value: 0x7f020060
-			public const int notification_bg_low_pressed = 2130837600;
+			public const int notification_bg_low_normal = 2130837600;
 			
 			// aapt resource value: 0x7f020061
-			public const int notification_bg_normal = 2130837601;
+			public const int notification_bg_low_pressed = 2130837601;
 			
 			// aapt resource value: 0x7f020062
-			public const int notification_bg_normal_pressed = 2130837602;
+			public const int notification_bg_normal = 2130837602;
 			
 			// aapt resource value: 0x7f020063
-			public const int notification_icon_background = 2130837603;
-			
-			// aapt resource value: 0x7f020068
-			public const int notification_template_icon_bg = 2130837608;
-			
-			// aapt resource value: 0x7f020069
-			public const int notification_template_icon_low_bg = 2130837609;
+			public const int notification_bg_normal_pressed = 2130837603;
 			
 			// aapt resource value: 0x7f020064
-			public const int notification_tile_bg = 2130837604;
+			public const int notification_icon_background = 2130837604;
+			
+			// aapt resource value: 0x7f020069
+			public const int notification_template_icon_bg = 2130837609;
+			
+			// aapt resource value: 0x7f02006a
+			public const int notification_template_icon_low_bg = 2130837610;
 			
 			// aapt resource value: 0x7f020065
-			public const int notify_panel_notification_icon_bg = 2130837605;
+			public const int notification_tile_bg = 2130837605;
 			
 			// aapt resource value: 0x7f020066
-			public const int tooltip_frame_dark = 2130837606;
+			public const int notify_panel_notification_icon_bg = 2130837606;
 			
 			// aapt resource value: 0x7f020067
-			public const int tooltip_frame_light = 2130837607;
+			public const int tooltip_frame_dark = 2130837607;
+			
+			// aapt resource value: 0x7f020068
+			public const int tooltip_frame_light = 2130837608;
 			
 			static Drawable()
 			{
@@ -2354,8 +2357,8 @@ namespace ComciganViewer
 			// aapt resource value: 0x7f080036
 			public const int SYM = 2131230774;
 			
-			// aapt resource value: 0x7f0800a0
-			public const int action0 = 2131230880;
+			// aapt resource value: 0x7f0800a3
+			public const int action0 = 2131230883;
 			
 			// aapt resource value: 0x7f08007b
 			public const int action_bar = 2131230843;
@@ -2378,17 +2381,17 @@ namespace ComciganViewer
 			// aapt resource value: 0x7f080059
 			public const int action_bar_title = 2131230809;
 			
-			// aapt resource value: 0x7f08009d
-			public const int action_container = 2131230877;
+			// aapt resource value: 0x7f0800a0
+			public const int action_container = 2131230880;
 			
 			// aapt resource value: 0x7f08007c
 			public const int action_context_bar = 2131230844;
 			
-			// aapt resource value: 0x7f0800a4
-			public const int action_divider = 2131230884;
+			// aapt resource value: 0x7f0800a7
+			public const int action_divider = 2131230887;
 			
-			// aapt resource value: 0x7f08009e
-			public const int action_image = 2131230878;
+			// aapt resource value: 0x7f0800a1
+			public const int action_image = 2131230881;
 			
 			// aapt resource value: 0x7f080003
 			public const int action_menu_divider = 2131230723;
@@ -2405,11 +2408,11 @@ namespace ComciganViewer
 			// aapt resource value: 0x7f08005b
 			public const int action_mode_close_button = 2131230811;
 			
-			// aapt resource value: 0x7f08009f
-			public const int action_text = 2131230879;
+			// aapt resource value: 0x7f0800a2
+			public const int action_text = 2131230882;
 			
-			// aapt resource value: 0x7f0800ad
-			public const int actions = 2131230893;
+			// aapt resource value: 0x7f0800b0
+			public const int actions = 2131230896;
 			
 			// aapt resource value: 0x7f08005c
 			public const int activity_chooser_view_content = 2131230812;
@@ -2425,6 +2428,9 @@ namespace ComciganViewer
 			
 			// aapt resource value: 0x7f080037
 			public const int always = 2131230775;
+			
+			// aapt resource value: 0x7f0800b4
+			public const int appbar = 2131230900;
 			
 			// aapt resource value: 0x7f080055
 			public const int async = 2131230805;
@@ -2444,8 +2450,8 @@ namespace ComciganViewer
 			// aapt resource value: 0x7f080062
 			public const int buttonPanel = 2131230818;
 			
-			// aapt resource value: 0x7f0800a1
-			public const int cancel_action = 2131230881;
+			// aapt resource value: 0x7f0800a4
+			public const int cancel_action = 2131230884;
 			
 			// aapt resource value: 0x7f080044
 			public const int center = 2131230788;
@@ -2459,8 +2465,8 @@ namespace ComciganViewer
 			// aapt resource value: 0x7f080072
 			public const int checkbox = 2131230834;
 			
-			// aapt resource value: 0x7f0800a9
-			public const int chronometer = 2131230889;
+			// aapt resource value: 0x7f0800ac
+			public const int chronometer = 2131230892;
 			
 			// aapt resource value: 0x7f08004d
 			public const int clip_horizontal = 2131230797;
@@ -2510,14 +2516,17 @@ namespace ComciganViewer
 			// aapt resource value: 0x7f08001f
 			public const int disableHome = 2131230751;
 			
+			// aapt resource value: 0x7f08009c
+			public const int drawer_layout = 2131230876;
+			
 			// aapt resource value: 0x7f08007d
 			public const int edit_query = 2131230845;
 			
 			// aapt resource value: 0x7f08002f
 			public const int end = 2131230767;
 			
-			// aapt resource value: 0x7f0800af
-			public const int end_padder = 2131230895;
+			// aapt resource value: 0x7f0800b2
+			public const int end_padder = 2131230898;
 			
 			// aapt resource value: 0x7f08003e
 			public const int enterAlways = 2131230782;
@@ -2561,8 +2570,8 @@ namespace ComciganViewer
 			// aapt resource value: 0x7f080061
 			public const int icon = 2131230817;
 			
-			// aapt resource value: 0x7f0800ae
-			public const int icon_group = 2131230894;
+			// aapt resource value: 0x7f0800b1
+			public const int icon_group = 2131230897;
 			
 			// aapt resource value: 0x7f080039
 			public const int ifRoom = 2131230777;
@@ -2570,8 +2579,8 @@ namespace ComciganViewer
 			// aapt resource value: 0x7f08005e
 			public const int image = 2131230814;
 			
-			// aapt resource value: 0x7f0800aa
-			public const int info = 2131230890;
+			// aapt resource value: 0x7f0800ad
+			public const int info = 2131230893;
 			
 			// aapt resource value: 0x7f080058
 			public const int italic = 2131230808;
@@ -2597,17 +2606,20 @@ namespace ComciganViewer
 			// aapt resource value: 0x7f080060
 			public const int list_item = 2131230816;
 			
-			// aapt resource value: 0x7f08009c
-			public const int main_webview = 2131230876;
+			// aapt resource value: 0x7f0800b3
+			public const int main_content = 2131230899;
 			
-			// aapt resource value: 0x7f0800b2
-			public const int masked = 2131230898;
+			// aapt resource value: 0x7f08009e
+			public const int main_webview = 2131230878;
 			
-			// aapt resource value: 0x7f0800a3
-			public const int media_actions = 2131230883;
+			// aapt resource value: 0x7f0800b8
+			public const int masked = 2131230904;
 			
-			// aapt resource value: 0x7f0800b0
-			public const int message = 2131230896;
+			// aapt resource value: 0x7f0800a6
+			public const int media_actions = 2131230886;
+			
+			// aapt resource value: 0x7f0800b6
+			public const int message = 2131230902;
 			
 			// aapt resource value: 0x7f080030
 			public const int middle = 2131230768;
@@ -2617,6 +2629,18 @@ namespace ComciganViewer
 			
 			// aapt resource value: 0x7f080026
 			public const int multiply = 2131230758;
+			
+			// aapt resource value: 0x7f0800b9
+			public const int nav_home = 2131230905;
+			
+			// aapt resource value: 0x7f0800ba
+			public const int nav_messages = 2131230906;
+			
+			// aapt resource value: 0x7f08009d
+			public const int nav_view = 2131230877;
+			
+			// aapt resource value: 0x7f08009f
+			public const int navheader_username = 2131230879;
 			
 			// aapt resource value: 0x7f080096
 			public const int navigation_header_container = 2131230870;
@@ -2630,14 +2654,14 @@ namespace ComciganViewer
 			// aapt resource value: 0x7f08001d
 			public const int normal = 2131230749;
 			
-			// aapt resource value: 0x7f0800ac
-			public const int notification_background = 2131230892;
+			// aapt resource value: 0x7f0800af
+			public const int notification_background = 2131230895;
 			
-			// aapt resource value: 0x7f0800a6
-			public const int notification_main_column = 2131230886;
+			// aapt resource value: 0x7f0800a9
+			public const int notification_main_column = 2131230889;
 			
-			// aapt resource value: 0x7f0800a5
-			public const int notification_main_column_container = 2131230885;
+			// aapt resource value: 0x7f0800a8
+			public const int notification_main_column_container = 2131230888;
 			
 			// aapt resource value: 0x7f08008d
 			public const int openGithub = 2131230861;
@@ -2666,11 +2690,11 @@ namespace ComciganViewer
 			// aapt resource value: 0x7f080049
 			public const int right = 2131230793;
 			
-			// aapt resource value: 0x7f0800ab
-			public const int right_icon = 2131230891;
+			// aapt resource value: 0x7f0800ae
+			public const int right_icon = 2131230894;
 			
-			// aapt resource value: 0x7f0800a7
-			public const int right_side = 2131230887;
+			// aapt resource value: 0x7f0800aa
+			public const int right_side = 2131230890;
 			
 			// aapt resource value: 0x7f08000c
 			public const int save_image_matrix = 2131230732;
@@ -2774,8 +2798,8 @@ namespace ComciganViewer
 			// aapt resource value: 0x7f08004a
 			public const int start = 2131230794;
 			
-			// aapt resource value: 0x7f0800a2
-			public const int status_bar_latest_event_content = 2131230882;
+			// aapt resource value: 0x7f0800a5
+			public const int status_bar_latest_event_content = 2131230885;
 			
 			// aapt resource value: 0x7f080075
 			public const int submenuarrow = 2131230837;
@@ -2816,8 +2840,8 @@ namespace ComciganViewer
 			// aapt resource value: 0x7f080015
 			public const int textinput_error = 2131230741;
 			
-			// aapt resource value: 0x7f0800a8
-			public const int time = 2131230888;
+			// aapt resource value: 0x7f0800ab
+			public const int time = 2131230891;
 			
 			// aapt resource value: 0x7f08001b
 			public const int title = 2131230747;
@@ -2827,6 +2851,9 @@ namespace ComciganViewer
 			
 			// aapt resource value: 0x7f08006e
 			public const int title_template = 2131230830;
+			
+			// aapt resource value: 0x7f0800b5
+			public const int toolbar = 2131230901;
 			
 			// aapt resource value: 0x7f08003d
 			public const int top = 2131230781;
@@ -2864,8 +2891,8 @@ namespace ComciganViewer
 			// aapt resource value: 0x7f080016
 			public const int view_offset_helper = 2131230742;
 			
-			// aapt resource value: 0x7f0800b1
-			public const int visible = 2131230897;
+			// aapt resource value: 0x7f0800b7
+			public const int visible = 2131230903;
 			
 			// aapt resource value: 0x7f08003b
 			public const int withText = 2131230779;
@@ -3059,64 +3086,73 @@ namespace ComciganViewer
 			public const int Main = 2130968618;
 			
 			// aapt resource value: 0x7f04002b
-			public const int notification_action = 2130968619;
+			public const int Main_content = 2130968619;
 			
 			// aapt resource value: 0x7f04002c
-			public const int notification_action_tombstone = 2130968620;
+			public const int nav_header = 2130968620;
 			
 			// aapt resource value: 0x7f04002d
-			public const int notification_media_action = 2130968621;
+			public const int notification_action = 2130968621;
 			
 			// aapt resource value: 0x7f04002e
-			public const int notification_media_cancel_action = 2130968622;
+			public const int notification_action_tombstone = 2130968622;
 			
 			// aapt resource value: 0x7f04002f
-			public const int notification_template_big_media = 2130968623;
+			public const int notification_media_action = 2130968623;
 			
 			// aapt resource value: 0x7f040030
-			public const int notification_template_big_media_custom = 2130968624;
+			public const int notification_media_cancel_action = 2130968624;
 			
 			// aapt resource value: 0x7f040031
-			public const int notification_template_big_media_narrow = 2130968625;
+			public const int notification_template_big_media = 2130968625;
 			
 			// aapt resource value: 0x7f040032
-			public const int notification_template_big_media_narrow_custom = 2130968626;
+			public const int notification_template_big_media_custom = 2130968626;
 			
 			// aapt resource value: 0x7f040033
-			public const int notification_template_custom_big = 2130968627;
+			public const int notification_template_big_media_narrow = 2130968627;
 			
 			// aapt resource value: 0x7f040034
-			public const int notification_template_icon_group = 2130968628;
+			public const int notification_template_big_media_narrow_custom = 2130968628;
 			
 			// aapt resource value: 0x7f040035
-			public const int notification_template_lines_media = 2130968629;
+			public const int notification_template_custom_big = 2130968629;
 			
 			// aapt resource value: 0x7f040036
-			public const int notification_template_media = 2130968630;
+			public const int notification_template_icon_group = 2130968630;
 			
 			// aapt resource value: 0x7f040037
-			public const int notification_template_media_custom = 2130968631;
+			public const int notification_template_lines_media = 2130968631;
 			
 			// aapt resource value: 0x7f040038
-			public const int notification_template_part_chronometer = 2130968632;
+			public const int notification_template_media = 2130968632;
 			
 			// aapt resource value: 0x7f040039
-			public const int notification_template_part_time = 2130968633;
+			public const int notification_template_media_custom = 2130968633;
 			
 			// aapt resource value: 0x7f04003a
-			public const int select_dialog_item_material = 2130968634;
+			public const int notification_template_part_chronometer = 2130968634;
 			
 			// aapt resource value: 0x7f04003b
-			public const int select_dialog_multichoice_material = 2130968635;
+			public const int notification_template_part_time = 2130968635;
 			
 			// aapt resource value: 0x7f04003c
-			public const int select_dialog_singlechoice_material = 2130968636;
+			public const int select_dialog_item_material = 2130968636;
 			
 			// aapt resource value: 0x7f04003d
-			public const int support_simple_spinner_dropdown_item = 2130968637;
+			public const int select_dialog_multichoice_material = 2130968637;
 			
 			// aapt resource value: 0x7f04003e
-			public const int tooltip = 2130968638;
+			public const int select_dialog_singlechoice_material = 2130968638;
+			
+			// aapt resource value: 0x7f04003f
+			public const int support_simple_spinner_dropdown_item = 2130968639;
+			
+			// aapt resource value: 0x7f040040
+			public const int toolbar = 2130968640;
+			
+			// aapt resource value: 0x7f040041
+			public const int tooltip = 2130968641;
 			
 			static Layout()
 			{
@@ -3124,6 +3160,22 @@ namespace ComciganViewer
 			}
 			
 			private Layout()
+			{
+			}
+		}
+		
+		public partial class Menu
+		{
+			
+			// aapt resource value: 0x7f0e0000
+			public const int nav_menu = 2131623936;
+			
+			static Menu()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Menu()
 			{
 			}
 		}
@@ -3269,6 +3321,12 @@ namespace ComciganViewer
 			
 			// aapt resource value: 0x7f09002c
 			public const int creator = 2131296300;
+			
+			// aapt resource value: 0x7f090033
+			public const int nav_close = 2131296307;
+			
+			// aapt resource value: 0x7f090032
+			public const int nav_open = 2131296306;
 			
 			// aapt resource value: 0x7f090024
 			public const int password_toggle_content_description = 2131296292;
@@ -3819,6 +3877,9 @@ namespace ComciganViewer
 			
 			// aapt resource value: 0x7f0a018a
 			public const int ComciganViewerTheme = 2131362186;
+			
+			// aapt resource value: 0x7f0a018b
+			public const int ComciganViewerTheme_Base = 2131362187;
 			
 			// aapt resource value: 0x7f0a001e
 			public const int Platform_AppCompat = 2131361822;

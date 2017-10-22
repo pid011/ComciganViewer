@@ -9,4 +9,6 @@
   <string name="NoOnline_msg">앱을 실행하려면 인터넷 연결이 필요합니다.</string>
   <string name="NoOnline_ConnectWiFi">와이파이 연결하기</string>
   <string name="NoOnline_ConnectDataRoaming">데이터네트워크 켜기</string>
+  <string name="nav_open">열기</string>
+  <string name="nav_close">닫기</string>
 </resources>
