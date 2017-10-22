@@ -5,11 +5,13 @@
    android:layout_height="210dp"
    android:padding="16dp"
    android:orientation="vertical"
-   android:gravity="bottom">
+   android:gravity="bottom"
+   android:background="@color/primaryColor">
   <TextView
-     android:text="User Name"
+     android:text="@string/app_name"
      android:layout_width="match_parent"
      android:layout_height="wrap_content"
      android:id="@+id/navheader_username"
-     android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+     android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+     android:textColor="@color/primaryTextColor"/>
 </LinearLayout>
