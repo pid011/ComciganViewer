@@ -40,6 +40,8 @@ namespace ComciganViewer.Activities
             web_view.Settings.JavaScriptEnabled = true;
             web_view.SetScrollContainer(true);
             web_view.Settings.DomStorageEnabled = true;
+            web_view.Settings.BuiltInZoomControls = true;
+            web_view.Settings.SetSupportZoom(true);
         }
 
         private void NavigationView_NavigationItemSelected(object sender, NavigationView.NavigationItemSelectedEventArgs e)
