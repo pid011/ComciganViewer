@@ -3,6 +3,15 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+  <include
+      layout="@layout/toolbar"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content" />
+  <LinearLayout
+      android:id="@+id/aboutMeView"
+      android:orientation="vertical"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
     <TextView
         android:text="About Me!"
         android:textAppearance="?android:attr/textAppearanceLarge"
@@ -48,4 +57,5 @@
         android:layout_gravity="center"
         android:clickable="true"
         android:textAllCaps="false" />
+  </LinearLayout>
 </LinearLayout>

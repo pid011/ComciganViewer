@@ -98,6 +98,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Activities\AboutMeActivity.cs" />
     <Compile Include="Activities\MainActivity.cs" />
     <Compile Include="ComciganWebViewClient.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />

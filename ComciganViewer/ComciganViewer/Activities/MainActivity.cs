@@ -1,4 +1,5 @@
 ﻿using Android.App;
+using Android.Content;
 using Android.OS;
 using Android.Support.Design.Widget;
 using Android.Support.V4.Widget;
@@ -7,7 +8,7 @@ using Android.Views;
 using Android.Webkit;
 using Toolbar = Android.Support.V7.Widget.Toolbar;
 
-namespace ComciganViewer
+namespace ComciganViewer.Activities
 {
     [Activity(MainLauncher = true)]
     public class MainActivity : AppCompatActivity
@@ -21,11 +22,11 @@ namespace ComciganViewer
 
             SetContentView(Resource.Layout.Main);
 
-            drawerLayout = FindViewById<DrawerLayout>(Resource.Id.drawer_layout);
             var toolbar = FindViewById<Toolbar>(Resource.Id.toolbar);
             SetSupportActionBar(toolbar);
             SupportActionBar.Title = GetString(Resource.String.Timetable);
 
+            drawerLayout = FindViewById<DrawerLayout>(Resource.Id.drawer_layout);
             var drawerToggle = new ActionBarDrawerToggle
                 (this, drawerLayout, toolbar, Resource.String.nav_open, Resource.String.nav_close);
             drawerLayout.AddDrawerListener(drawerToggle);
@@ -43,7 +44,21 @@ namespace ComciganViewer
 
         private void NavigationView_NavigationItemSelected(object sender, NavigationView.NavigationItemSelectedEventArgs e)
         {
-            e.MenuItem.SetChecked(true);
+            var menuItem = e.MenuItem;
+            //menuItem.SetChecked(!menuItem.IsChecked);
+            menuItem.SetCheckable(false);
+            Intent intent;
+            switch (menuItem.ItemId)
+            {
+                case Resource.Id.nav_aboutMe:
+                    intent = new Intent(this, typeof(AboutMeActivity));
+                    StartActivity(intent);
+                    break;
+
+                default:
+                    break;
+            }
+            navigationView.SetCheckedItem(Resource.Id.nav_home);
             drawerLayout.CloseDrawers();
         }
 
