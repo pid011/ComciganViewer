@@ -11,4 +11,6 @@
   <string name="NoOnline_ConnectDataRoaming">데이터네트워크 켜기</string>
   <string name="nav_open">열기</string>
   <string name="nav_close">닫기</string>
+  <string name="nav_menu_home">시간표</string>
+  <string name="nav_menu_aboutMe">앱 정보</string>
 </resources>
