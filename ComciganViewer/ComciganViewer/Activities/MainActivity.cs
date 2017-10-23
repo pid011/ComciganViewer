@@ -54,11 +54,7 @@ namespace ComciganViewer.Activities
                     intent = new Intent(this, typeof(AboutMeActivity));
                     StartActivity(intent);
                     break;
-
-                default:
-                    break;
             }
-            navigationView.SetCheckedItem(Resource.Id.nav_home);
             drawerLayout.CloseDrawers();
         }
 

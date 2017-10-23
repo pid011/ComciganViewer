@@ -1,16 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
   <string name="app_name">컴시간알리미 뷰어</string>
-  <string name="start_intro1">Timetable</string>
-  <string name="start_intro2">컴시간알리미를 앱으로!</string>
   <string name="about_me_title">앱 정보</string>
   <string name="Timetable">시간표</string>
-  <string name="NoOnline_title">인터넷 연결 불가</string>
-  <string name="NoOnline_msg">앱을 실행하려면 인터넷 연결이 필요합니다.</string>
-  <string name="NoOnline_ConnectWiFi">와이파이 연결하기</string>
-  <string name="NoOnline_ConnectDataRoaming">데이터네트워크 켜기</string>
   <string name="nav_open">열기</string>
   <string name="nav_close">닫기</string>
-  <string name="nav_menu_home">시간표</string>
   <string name="nav_menu_aboutMe">앱 정보</string>
 </resources>
