@@ -12,6 +12,9 @@
   <string name="email_text">== 버그, 문의 등등 원하는 내용을 써주세요! ==\n</string>
   <string name="github_adress">https://github.com/pid011/Comcigan-App</string>
   <string name="comcigan_adress">http://112.186.146.96:4080/</string>
+  <string name="aboutme_opensource">컴시간알리미 뷰어는 오픈소스입니다!</string>
+  <string name="github">GitHub</string>
+  <string name="aboutme_remark">잠시 한마디 할게요...</string>
   <string name="aboutme_remark_title">개발자의 한마디</string>
   <string name="aboutme_remark_text">컴시간 알리미 뷰어는 영리목적이 아닌 비영리 목적으로 만들어졌으며, 
   공식 컴시간 알리미 앱이 아닌 개발자가 쓰려고 만든 unofficial(비공식) App입니다.\n
