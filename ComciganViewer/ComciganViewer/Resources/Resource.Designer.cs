@@ -2429,23 +2429,14 @@ namespace ComciganViewer
 			// aapt resource value: 0x7f08006f
 			public const int alertTitle = 2131230831;
 			
-			// aapt resource value: 0x7f0800b8
-			public const int alert_button = 2131230904;
-			
-			// aapt resource value: 0x7f0800b7
-			public const int alert_text = 2131230903;
-			
-			// aapt resource value: 0x7f0800b6
-			public const int alert_title = 2131230902;
-			
 			// aapt resource value: 0x7f080051
 			public const int all = 2131230801;
 			
 			// aapt resource value: 0x7f080037
 			public const int always = 2131230775;
 			
-			// aapt resource value: 0x7f0800ba
-			public const int appbar = 2131230906;
+			// aapt resource value: 0x7f0800b6
+			public const int appbar = 2131230902;
 			
 			// aapt resource value: 0x7f080055
 			public const int async = 2131230805;
@@ -2624,20 +2615,20 @@ namespace ComciganViewer
 			// aapt resource value: 0x7f080060
 			public const int list_item = 2131230816;
 			
-			// aapt resource value: 0x7f0800b9
-			public const int main_content = 2131230905;
+			// aapt resource value: 0x7f0800b5
+			public const int main_content = 2131230901;
 			
 			// aapt resource value: 0x7f0800a0
 			public const int main_webview = 2131230880;
 			
-			// aapt resource value: 0x7f0800be
-			public const int masked = 2131230910;
+			// aapt resource value: 0x7f0800ba
+			public const int masked = 2131230906;
 			
 			// aapt resource value: 0x7f0800a8
 			public const int media_actions = 2131230888;
 			
-			// aapt resource value: 0x7f0800bc
-			public const int message = 2131230908;
+			// aapt resource value: 0x7f0800b8
+			public const int message = 2131230904;
 			
 			// aapt resource value: 0x7f080030
 			public const int middle = 2131230768;
@@ -2648,8 +2639,8 @@ namespace ComciganViewer
 			// aapt resource value: 0x7f080026
 			public const int multiply = 2131230758;
 			
-			// aapt resource value: 0x7f0800bf
-			public const int nav_aboutMe = 2131230911;
+			// aapt resource value: 0x7f0800bb
+			public const int nav_aboutMe = 2131230907;
 			
 			// aapt resource value: 0x7f08009f
 			public const int nav_view = 2131230879;
@@ -2701,9 +2692,6 @@ namespace ComciganViewer
 			
 			// aapt resource value: 0x7f080074
 			public const int radio = 2131230836;
-			
-			// aapt resource value: 0x7f0800b5
-			public const int remark_alert = 2131230901;
 			
 			// aapt resource value: 0x7f080049
 			public const int right = 2131230793;
@@ -2870,8 +2858,8 @@ namespace ComciganViewer
 			// aapt resource value: 0x7f08006e
 			public const int title_template = 2131230830;
 			
-			// aapt resource value: 0x7f0800bb
-			public const int toolbar = 2131230907;
+			// aapt resource value: 0x7f0800b7
+			public const int toolbar = 2131230903;
 			
 			// aapt resource value: 0x7f08003d
 			public const int top = 2131230781;
@@ -2909,8 +2897,8 @@ namespace ComciganViewer
 			// aapt resource value: 0x7f080016
 			public const int view_offset_helper = 2131230742;
 			
-			// aapt resource value: 0x7f0800bd
-			public const int visible = 2131230909;
+			// aapt resource value: 0x7f0800b9
+			public const int visible = 2131230905;
 			
 			// aapt resource value: 0x7f08003b
 			public const int withText = 2131230779;
@@ -3155,25 +3143,22 @@ namespace ComciganViewer
 			public const int notification_template_part_time = 2130968635;
 			
 			// aapt resource value: 0x7f04003c
-			public const int remark_dialog = 2130968636;
+			public const int select_dialog_item_material = 2130968636;
 			
 			// aapt resource value: 0x7f04003d
-			public const int select_dialog_item_material = 2130968637;
+			public const int select_dialog_multichoice_material = 2130968637;
 			
 			// aapt resource value: 0x7f04003e
-			public const int select_dialog_multichoice_material = 2130968638;
+			public const int select_dialog_singlechoice_material = 2130968638;
 			
 			// aapt resource value: 0x7f04003f
-			public const int select_dialog_singlechoice_material = 2130968639;
+			public const int support_simple_spinner_dropdown_item = 2130968639;
 			
 			// aapt resource value: 0x7f040040
-			public const int support_simple_spinner_dropdown_item = 2130968640;
+			public const int toolbar = 2130968640;
 			
 			// aapt resource value: 0x7f040041
-			public const int toolbar = 2130968641;
-			
-			// aapt resource value: 0x7f040042
-			public const int tooltip = 2130968642;
+			public const int tooltip = 2130968641;
 			
 			static Layout()
 			{
