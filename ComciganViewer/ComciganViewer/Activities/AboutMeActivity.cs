@@ -20,21 +20,34 @@ namespace ComciganViewer.Activities
 
             var toolbar = FindViewById<Toolbar>(Resource.Id.toolbar);
             SetSupportActionBar(toolbar);
-            SupportActionBar.SetTitle(Resource.String.about_me_title);
+            SupportActionBar.SetTitle(Resource.String.aboutme_title);
             SupportActionBar.SetDisplayHomeAsUpEnabled(true);
             SupportActionBar.SetDisplayShowHomeEnabled(true);
 
-            Button button = FindViewById<Button>(Resource.Id.openGithub);
+            Button sendMailButton = FindViewById<Button>(Resource.Id.send_mail_button);
+            Button goToGitHubButton = FindViewById<Button>(Resource.Id.go_to_github);
 
-            button.Click += Button_Click;
+            sendMailButton.Click += SendMailButton_Click;
+            goToGitHubButton.Click += GoToGitHubButton_Click;
         }
 
-        private void Button_Click(object sender, EventArgs e)
+        private void GoToGitHubButton_Click(object sender, EventArgs e)
         {
-            var uri = Android.Net.Uri.Parse("https://github.com/pid011/Comcigan-App");
+            var uri = Android.Net.Uri.Parse(GetString(Resource.String.github_adress));
             var intent = new Intent(Intent.ActionView, uri);
             intent.AddFlags(ActivityFlags.NewTask);
-            Application.Context.StartActivity(intent);
+            StartActivity(intent);
+        }
+
+        private void SendMailButton_Click(object sender, EventArgs e)
+        {
+            Intent email = new Intent(Intent.ActionSend);
+            email.SetType("plain/text");
+            String[] address = { GetString(Resource.String.email_address) };
+            email.PutExtra(Intent.ExtraEmail, address);
+            email.PutExtra(Intent.ExtraSubject, GetString(Resource.String.email_subject));
+            email.PutExtra(Intent.ExtraText, GetString(Resource.String.email_text));
+            StartActivity(email);
         }
 
         public override bool OnOptionsItemSelected(IMenuItem item)

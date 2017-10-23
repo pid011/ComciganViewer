@@ -24,7 +24,7 @@ namespace ComciganViewer.Activities
 
             var toolbar = FindViewById<Toolbar>(Resource.Id.toolbar);
             SetSupportActionBar(toolbar);
-            SupportActionBar.Title = GetString(Resource.String.Timetable);
+            SupportActionBar.Title = GetString(Resource.String.timetable);
 
             drawerLayout = FindViewById<DrawerLayout>(Resource.Id.drawer_layout);
             var drawerToggle = new ActionBarDrawerToggle
@@ -36,7 +36,7 @@ namespace ComciganViewer.Activities
 
             WebView web_view = FindViewById<WebView>(Resource.Id.main_webview);
             web_view.SetWebViewClient(new ComciganWebViewClient());
-            web_view.LoadUrl("http://112.186.146.96:4080/");
+            web_view.LoadUrl(GetString(Resource.String.comcigan_adress));
             web_view.Settings.JavaScriptEnabled = true;
             web_view.SetScrollContainer(true);
             web_view.Settings.DomStorageEnabled = true;

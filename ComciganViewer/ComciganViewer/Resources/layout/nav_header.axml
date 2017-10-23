@@ -13,5 +13,5 @@
      android:layout_height="wrap_content"
      android:id="@+id/navheader_username"
      android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-     android:textColor="@color/primaryTextColor"/>
+     android:textColor="@color/primaryTextColor" />
 </LinearLayout>

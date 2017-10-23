@@ -3,59 +3,60 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-  <include
-      layout="@layout/toolbar"
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content" />
-  <LinearLayout
-      android:id="@+id/aboutMeView"
-      android:orientation="vertical"
-      android:layout_width="match_parent"
-      android:layout_height="match_parent">
-    <TextView
-        android:text="About Me!"
-        android:textAppearance="?android:attr/textAppearanceLarge"
+    <include
+        layout="@layout/toolbar"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView1"
-        android:textSize="56dp" />
-    <TextView
-        android:text="2016년 기준 여주세종중학교 학생"
-        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:id="@+id/aboutMeView"
+        android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView2"
-        android:textSize="24dp" />
-    <TextView
-        android:text="개발자 e-mail:"
-        android:textAppearance="?android:attr/textAppearanceSmall"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView2"
-        android:textSize="24dp" />
-    <TextView
-        android:text="deet1022@gmail.com"
-        android:textAppearance="?android:attr/textAppearanceSmall"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView2"
-        android:textSize="24dp" />
-    <TextView
-        android:text="본 앱은 오픈소스입니다."
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView3"
-        android:textSize="24dp"
-        android:layout_marginTop="86.5dp"
-        android:layout_gravity="center" />
-    <Button
-        android:text="Github"
-        android:layout_width="131.0dp"
-        android:layout_height="wrap_content"
-        android:id="@+id/openGithub"
-        android:layout_gravity="center"
-        android:clickable="true"
-        android:textAllCaps="false" />
-  </LinearLayout>
+        android:layout_height="match_parent">
+        <TextView
+            android:text="@string/app_name"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:layout_gravity="center" />
+        <TextView
+            android:text="@string/aboutme_textview_email"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2"
+            android:textSize="18dp"
+            android:textStyle="italic"
+            android:layout_gravity="center" />
+        <Button
+            android:text="메일 보내기"
+            android:layout_width="230dp"
+            android:layout_height="41.0dp"
+            android:id="@+id/send_mail_button"
+            android:layout_gravity="center"
+            android:background="@drawable/button"
+            android:textColor="@color/primaryTextColor"
+            android:layout_marginTop="8dp" />
+        <TextView
+            android:text="컴시간알리미 뷰어는 오픈소스입니다!"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp" />
+        <Button
+            android:text="GitHub"
+            android:layout_width="230dp"
+            android:layout_height="41.0dp"
+            android:id="@+id/go_to_github"
+            android:layout_gravity="center"
+            android:background="@drawable/button"
+            android:textColor="@color/primaryTextColor"
+            android:layout_marginTop="8dp"
+            android:textAllCaps="false" />
+    </LinearLayout>
 </LinearLayout>

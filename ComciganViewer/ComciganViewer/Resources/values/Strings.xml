@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
   <string name="app_name">컴시간알리미 뷰어</string>
-  <string name="about_me_title">앱 정보</string>
-  <string name="Timetable">시간표</string>
+  <string name="aboutme_title">앱 정보</string>
+  <string name="timetable">시간표</string>
   <string name="nav_open">열기</string>
   <string name="nav_close">닫기</string>
   <string name="nav_menu_aboutMe">앱 정보</string>
+  <string name="aboutme_textview_email">E-Mail: deet1022@gmail.com</string>
+  <string name="email_address">deet1022@gmail.com</string>
+  <string name="email_subject">[컴시간알리미 뷰어] </string>
+  <string name="email_text">== 버그, 문의 등등 원하는 내용을 써주세요! ==\n</string>
+  <string name="github_adress">https://github.com/pid011/Comcigan-App</string>
+  <string name="comcigan_adress">http://112.186.146.96:4080/</string>
 </resources>
