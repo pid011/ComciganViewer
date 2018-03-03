@@ -11,5 +11,5 @@
         android:layout_height="wrap_content"
         android:id="@+id/main_webview"
         android:focusable="true"
-        android:focusableInTouchMode="true"/>
+        android:focusableInTouchMode="true" />
 </LinearLayout>

@@ -3,30 +3,30 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-  <android.support.v4.widget.DrawerLayout xmlns:app="http://schemas.android.com/apk/res-auto"
-      android:id="@+id/drawer_layout"
-      android:layout_height="match_parent"
-      android:layout_width="fill_parent"
-      android:fitsSystemWindows="true">
-    <LinearLayout
-        android:orientation="vertical"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent">
-      <include
-          layout="@layout/toolbar"
-          android:layout_width="match_parent"
-          android:layout_height="wrap_content" />
-      <include
-          layout="@layout/Main_content"
-          android:layout_width="match_parent"
-          android:layout_height="wrap_content" />
-    </LinearLayout>
-    <android.support.design.widget.NavigationView
-        android:id="@+id/nav_view"
+    <android.support.v4.widget.DrawerLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/drawer_layout"
         android:layout_height="match_parent"
-        android:layout_width="300dp"
-        android:layout_gravity="start"
-        android:fitsSystemWindows="true"
-        app:headerLayout="@layout/nav_header" />
-  </android.support.v4.widget.DrawerLayout>
+        android:layout_width="fill_parent"
+        android:fitsSystemWindows="true">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <include
+                layout="@layout/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <include
+                layout="@layout/Main_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <android.support.design.widget.NavigationView
+            android:id="@+id/nav_view"
+            android:layout_height="match_parent"
+            android:layout_width="300dp"
+            android:layout_gravity="start"
+            android:fitsSystemWindows="true"
+            app:headerLayout="@layout/nav_header" />
+    </android.support.v4.widget.DrawerLayout>
 </RelativeLayout>
