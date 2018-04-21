@@ -6,6 +6,7 @@
   <string name="nav_open">열기</string>
   <string name="nav_close">닫기</string>
   <string name="nav_menu_aboutMe">앱 정보</string>
+  <string name="nav_menu_timetable_teacher">선생님 시간표</string>
   <string name="aboutme_textview_email">E-Mail: deet1022@gmail.com</string>
   <string name="email_address">deet1022@gmail.com</string>
   <string name="email_subject">[컴시간알리미 뷰어] </string>

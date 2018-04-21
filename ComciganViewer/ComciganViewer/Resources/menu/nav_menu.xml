@@ -2,6 +2,12 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
   <group>
     <item
+      android:id="@+id/nav_timetable_teacher"
+      android:icon="@drawable/ic_school"
+      android:title="@string/nav_menu_timetable_teacher"/>
+  </group>
+  <group>
+    <item
       android:id="@+id/nav_aboutMe"
       android:icon="@drawable/ic_info_outline"
       android:title="@string/nav_menu_aboutMe" />
