@@ -18,10 +18,12 @@
   <string name="github">GitHub</string>
   <string name="aboutme_remark">잠시 한마디 할게요...</string>
   <string name="aboutme_remark_title">개발자의 한마디</string>
-  <string name="aboutme_remark_text">컴시간 알리미 뷰어는 영리목적이 아닌 비영리 목적으로 만들어졌으며, 
-  공식 컴시간 알리미 앱이 아닌 개발자가 쓰려고 만든 unofficial(비공식) App입니다.\n
-  저는 이 앱으로 어떠한 이윤도 얻지 않습니다... bb \n\n\n
-  고등학생 신분의 개발자라 업데이트가 뜸해요...D:\n
-  버그가 발견되면 리뷰보다 이메일로 알려주시는 것을 추천할게요! (물론 리뷰도 봐요)</string>
-  <string name="aboutme_remark_ok">알겠습니다</string>
+  <string name="aboutme_remark_text">
+    [컴시간 알리미 뷰어]는 [비공식] 앱입니다.\n\n
+    절대 앱에 광고를 삽입하는 등 이윤을 얻지 않으며 앞으로도 그러지 않을 것입니다.\n\n
+    가짜 시간표를 보여준다든지 그런 짓은 하지 않습니다. 그저 웹페이지로 보던 것을 앱으로 편하게 볼 수 있도록 만들었을 뿐입니다!\n\n
+    가짜 앱은 아니니 안심하고 사용하세요!\n\n\n\n\n
+    업데이트가 너무 뜸하다면 그건 제가 고등학생이라서입니다... 앗... 아아...\n\n
+    버그 또는 기능 추가 건의는 이메일로! (물론 리뷰도 봐요)</string>
+  <string name="aboutme_remark_ok">앗 알겠습니다..!</string>
 </resources>
