@@ -1,15 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-  <group>
+  <group android:checkableBehavior="single">
+    <item
+      android:id="@+id/nav_timetable_student"
+      android:icon="@drawable/ic_school"
+      android:title="@string/nav_menu_timetable_student"/>
     <item
       android:id="@+id/nav_timetable_teacher"
       android:icon="@drawable/ic_school"
       android:title="@string/nav_menu_timetable_teacher"/>
   </group>
-  <group>
-    <item
+  <item>
+    <menu>
+      <item
       android:id="@+id/nav_aboutMe"
       android:icon="@drawable/ic_info_outline"
       android:title="@string/nav_menu_aboutMe" />
-  </group>
+    </menu>
+  </item>
 </menu>
