@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27004.2005
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComciganViewer", "ComciganViewer\ComciganViewer.csproj", "{42929413-CC0C-435C-9C2C-95E664DE52CB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UITest1", "UITest1\UITest1.csproj", "{5DB07C07-5658-4CDB-B851-B731AAAFA6AF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,6 +19,10 @@ Global
 		{42929413-CC0C-435C-9C2C-95E664DE52CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{42929413-CC0C-435C-9C2C-95E664DE52CB}.Release|Any CPU.Build.0 = Release|Any CPU
 		{42929413-CC0C-435C-9C2C-95E664DE52CB}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{5DB07C07-5658-4CDB-B851-B731AAAFA6AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DB07C07-5658-4CDB-B851-B731AAAFA6AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DB07C07-5658-4CDB-B851-B731AAAFA6AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DB07C07-5658-4CDB-B851-B731AAAFA6AF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
