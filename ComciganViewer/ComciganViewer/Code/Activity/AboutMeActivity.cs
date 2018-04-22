@@ -8,7 +8,7 @@ using System;
 using Toolbar = Android.Support.V7.Widget.Toolbar;
 using AlertDialog = Android.Support.V7.App.AlertDialog;
 
-namespace ComciganViewer.Activities
+namespace ComciganViewer.Code.Activity
 {
     [Activity]
     public class AboutMeActivity : AppCompatActivity
@@ -23,7 +23,7 @@ namespace ComciganViewer.Activities
 
             var toolbar = FindViewById<Toolbar>(Resource.Id.toolbar);
             SetSupportActionBar(toolbar);
-            SupportActionBar.SetTitle(Resource.String.aboutme_title);
+            SupportActionBar.SetTitle(Resource.String.aboutme);
             SupportActionBar.SetDisplayHomeAsUpEnabled(true);
             SupportActionBar.SetDisplayShowHomeEnabled(true);
 

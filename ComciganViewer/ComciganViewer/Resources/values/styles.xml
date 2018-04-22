@@ -2,7 +2,7 @@
 <resources>
   <style name="ComciganViewerTheme" parent="ComciganViewerTheme.Base" />
 
-  <style name="ComciganViewerTheme.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+  <style name="ComciganViewerTheme.Base" parent="Theme.AppCompat.Light">
     <item name="windowActionBar">false</item>
     <item name="windowNoTitle">true</item>
     <item name="colorPrimaryDark">@color/primaryDarkColor</item>

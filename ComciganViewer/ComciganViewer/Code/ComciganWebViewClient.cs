@@ -1,7 +1,7 @@
 using Android.Webkit;
 using System;
 
-namespace ComciganViewer
+namespace ComciganViewer.Code
 {
     public class ComciganWebViewClient : WebViewClient
     {

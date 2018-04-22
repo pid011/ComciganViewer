@@ -108,9 +108,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Activities\AboutMeActivity.cs" />
-    <Compile Include="Activities\MainActivity.cs" />
-    <Compile Include="ComciganWebViewClient.cs" />
+    <Compile Include="Code\Activity\AboutMeActivity.cs" />
+    <Compile Include="Code\Activity\BaseActivity.cs" />
+    <Compile Include="Code\Activity\StudentTimetableActivity.cs" />
+    <Compile Include="Code\Activity\TeacherTimetableActivity.cs" />
+    <Compile Include="Code\ComciganWebViewClient.cs" />
+    <Compile Include="Code\WebViewUtil.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -125,16 +128,13 @@
     <AndroidResource Include="Resources\layout\AboutMe.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
-    <AndroidResource Include="Resources\layout\Main.axml">
-      <SubType>Designer</SubType>
-    </AndroidResource>
-    <AndroidResource Include="Resources\layout\toolbar.axml">
-      <SubType>Designer</SubType>
-    </AndroidResource>
     <AndroidResource Include="Resources\layout\nav_header.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
-    <AndroidResource Include="Resources\layout\Main_content.axml">
+    <AndroidResource Include="Resources\layout\BaseActivity.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\Webview.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>
