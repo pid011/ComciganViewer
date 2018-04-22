@@ -1,19 +1,13 @@
 ﻿using Android.App;
-using Android.Content;
 using Android.OS;
-using Android.Support.Design.Widget;
-using Android.Support.V4.Widget;
-using Android.Support.V7.App;
-using Android.Views;
 using Android.Webkit;
-using Toolbar = Android.Support.V7.Widget.Toolbar;
 
 namespace ComciganViewer.Code.Activity
 {
     [Activity]
     public class TeacherTimetableActivity : BaseActivity
     {
-        public TeacherTimetableActivity() 
+        public TeacherTimetableActivity()
             : base(Resource.Id.nav_timetable_teacher, Resource.String.timetable_teacher)
         {
         }

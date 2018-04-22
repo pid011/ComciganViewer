@@ -13,7 +13,7 @@
     <shape>
       <padding android:bottom="4dp" android:left="8dp" android:right="8dp" android:top="4dp" />
       <solid android:color="@color/secondaryColor" />
-      <corners android:bottomLeftRadius="20dp" android:bottomRightRadius="20dp" android:topLeftRadius="20dp" android:topRightRadius="20dp" />    
+      <corners android:bottomLeftRadius="20dp" android:bottomRightRadius="20dp" android:topLeftRadius="20dp" android:topRightRadius="20dp" />
     </shape>
   </item>
 </selector>

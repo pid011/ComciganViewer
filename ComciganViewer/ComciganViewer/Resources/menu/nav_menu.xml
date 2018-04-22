@@ -4,11 +4,11 @@
     <item
       android:id="@+id/nav_timetable_student"
       android:icon="@drawable/ic_school"
-      android:title="@string/timetable_student"/>
+      android:title="@string/timetable_student" />
     <item
       android:id="@+id/nav_timetable_teacher"
       android:icon="@drawable/ic_school"
-      android:title="@string/timetable_teacher"/>
+      android:title="@string/timetable_teacher" />
   </group>
   <item
       android:id="@+id/nav_aboutMe"
