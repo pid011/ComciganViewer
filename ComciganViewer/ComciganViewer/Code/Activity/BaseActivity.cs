@@ -61,6 +61,8 @@ namespace ComciganViewer.Code.Activity
                 menuItem.SetChecked(true);
             }
 
+            view.CloseDrawers();
+
             switch (menuItem.ItemId)
             {
                 case Resource.Id.nav_timetable_student:
@@ -87,9 +89,6 @@ namespace ComciganViewer.Code.Activity
                 default:
                     break;
             }
-
-
-            view.CloseDrawers();
         }
 
         public override bool OnCreateOptionsMenu(IMenu menu)
