@@ -48,7 +48,7 @@ namespace ComciganViewer.Code.Activity
 
         private void GoToGitHubButton_Click(object sender, EventArgs e)
         {
-            var uri = Android.Net.Uri.Parse(GetString(Resource.String.github_adress));
+            var uri = Android.Net.Uri.Parse(GetString(Resource.String.github_download_adress));
             var intent = new Intent(Intent.ActionView, uri);
             intent.AddFlags(ActivityFlags.NewTask);
             StartActivity(intent);

@@ -3302,7 +3302,7 @@ namespace ComciganViewer
 			public const int aboutme = 2131296299;
 			
 			// aapt resource value: 0x7f090035
-			public const int aboutme_opensource = 2131296309;
+			public const int aboutme_downlaod_this_app = 2131296309;
 			
 			// aapt resource value: 0x7f090037
 			public const int aboutme_remark = 2131296311;
@@ -3350,7 +3350,7 @@ namespace ComciganViewer
 			public const int github = 2131296310;
 			
 			// aapt resource value: 0x7f090032
-			public const int github_adress = 2131296306;
+			public const int github_download_adress = 2131296306;
 			
 			// aapt resource value: 0x7f09002a
 			public const int nav_close = 2131296298;
