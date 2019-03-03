@@ -13,8 +13,8 @@
   <string name="email_text">== 버그, 문의 등등 원하는 내용을 써주세요! ==\n</string>
   <string name="github_download_adress">https://github.com/pid011/ComciganViewer/releases</string>
   <string name="comcigan_student_adress">http://comci.kr:4081/st</string>
-  <string name="comcigan_teacher_adress">http://comci.kr:4080/th</string>
-  <string name="aboutme_downlaod_this_app">앞으로 최신버전은 GitHub에서 다운로드 받으실 수 있습니다.</string>
+  <string name="comcigan_teacher_adress">http://comci.kr:4081/th</string>
+  <string name="aboutme_downlaod_this_app">GitHub 다운로드</string>
   <string name="github">다운로드</string>
   <string name="aboutme_remark">잠시 한마디 할게요...</string>
   <string name="aboutme_remark_title">개발자의 한마디</string>
@@ -26,4 +26,5 @@
     버그 또는 기능 추가 건의는 이메일로!
   </string>
   <string name="aboutme_remark_ok">앗 알겠습니다..!</string>
+  <string name="aboutme_version">현재 버전</string>
 </resources>

@@ -4,6 +4,7 @@ using Android.OS;
 using Android.Support.V7.App;
 using Android.Views;
 using Android.Widget;
+using Xamarin.Essentials;
 using System;
 using AlertDialog = Android.Support.V7.App.AlertDialog;
 using Toolbar = Android.Support.V7.Widget.Toolbar;
@@ -34,6 +35,10 @@ namespace ComciganViewer.Code.Activity
             sendMailButton.Click += SendMailButton_Click;
             goToGitHubButton.Click += GoToGitHubButton_Click;
             openRemarksButton.Click += OpenRemarksButton_Click;
+
+            var versionText = FindViewById<TextView>(Resource.Id.versionText);
+
+            versionText.Text = AppInfo.VersionString;
         }
 
         private void OpenRemarksButton_Click(object sender, EventArgs e)
