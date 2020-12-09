@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="app_name">컴시간알리미 뷰어</string>
-  <string name="timetable">시간표</string>
-  <string name="nav_open">열기</string>
-  <string name="nav_close">닫기</string>
-  <string name="aboutme">앱 정보</string>
-  <string name="timetable_student">학생 시간표</string>
-  <string name="timetable_teacher">교사용 시간표</string>
-  <string name="aboutme_textview_email">E-Mail: deet1022@gmail.com</string>
-  <string name="email_address">deet1022@gmail.com</string>
-  <string name="email_subject">[컴시간알리미 뷰어] </string>
-  <string name="email_text">== 버그, 문의 등등 원하는 내용을 써주세요! ==\n</string>
-  <string name="github_download_adress">https://github.com/pid011/ComciganViewer/releases</string>
-  <string name="comcigan_student_adress">http://comci.kr:4081/st</string>
-  <string name="comcigan_teacher_adress">http://comci.kr:4081/th</string>
-  <string name="aboutme_downlaod_this_app">GitHub 다운로드</string>
-  <string name="github">다운로드</string>
-  <string name="aboutme_remark">잠시 한마디 할게요...</string>
-  <string name="aboutme_remark_title">개발자의 한마디</string>
-  <string name="aboutme_remark_text">
-    [컴시간 알리미 뷰어]는 [비공식] 앱입니다.\n\n
-    현재 컴시간 개발자의 플레이 스토어 게시 중단 요청으로 인해 플레이 스토어에는 게시가 중단된 상태입니다.\n\n
-    이후 버전은 GitHub 레포의 다운로드 페이지에서 다운받으실 수 있습니다.\n\n\n\n\n
-    업데이트는 간혹 컴시간 측의 변경사항으로 시간표가 나오지 않을 시 간간히 업데이트를 해드릴 예정입니다. 감사합니다.\n\n
-    버그 또는 기능 추가 건의는 이메일로!
-  </string>
-  <string name="aboutme_remark_ok">앗 알겠습니다..!</string>
-  <string name="aboutme_version">현재 버전</string>
+	<string name="app_name">컴시간알리미 뷰어</string>
+	<string name="timetable">시간표</string>
+	<string name="nav_open">열기</string>
+	<string name="nav_close">닫기</string>
+	<string name="aboutme">앱 정보</string>
+	<string name="timetable_student">학생 시간표</string>
+	<string name="timetable_teacher">교사용 시간표</string>
+	<string name="aboutme_textview_email">E-Mail: deet1022@gmail.com</string>
+	<string name="email_address">deet1022@gmail.com</string>
+	<string name="email_subject">[컴시간알리미 뷰어] </string>
+	<string name="email_text">== 버그, 문의 등등 원하는 내용을 써주세요! ==\n</string>
+	<string name="github_download_adress">https://github.com/pid011/ComciganViewer/releases</string>
+	<string name="comcigan_student_adress">http://112.186.146.81:4082/st</string>
+	<string name="comcigan_teacher_adress">http://112.186.146.81:4082/th</string>
+	<string name="aboutme_downlaod_this_app">GitHub 다운로드</string>
+	<string name="github">다운로드</string>
+	<string name="aboutme_remark">잠시 한마디 할게요...</string>
+	<string name="aboutme_remark_title">개발자의 한마디</string>
+	<string name="aboutme_remark_text">
+		컴시간 알리미 뷰어는 비공식 앱입니다.\n\n
+		현재 컴시간 개발자의 플레이 스토어 게시 중단 요청으로 인해 플레이 스토어에는 게시가 중단된 상태입니다.\n\n
+		이후 버전은 GitHub 레포의 다운로드 페이지에서 다운받으실 수 있습니다.\n\n\n\n\n
+		업데이트는 간혹 컴시간 측의 변경사항으로 시간표가 나오지 않을 시 간간히 업데이트를 해드릴 예정입니다. 감사합니다.\n\n
+		버그 또는 기능 추가 건의는 이메일로!
+	</string>
+	<string name="aboutme_remark_ok">앗 알겠습니다..!</string>
+	<string name="aboutme_version">현재 버전</string>
 </resources>
