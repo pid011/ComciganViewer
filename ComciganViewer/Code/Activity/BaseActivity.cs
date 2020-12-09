@@ -9,38 +9,38 @@ namespace ComciganViewer.Code.Activity
 {
     public class BaseActivity : AppCompatActivity
     {
-        private DrawerLayout view = null;
-        private NavigationView navigationView = null;
+        private DrawerLayout _view = null;
+        private NavigationView _navigationView = null;
 
-        protected Toolbar toolbar = null;
+        protected Toolbar _toolbar = null;
 
-        private int navMenuItem;
-        private int titleName;
+        private readonly int _navMenuItem;
+        private readonly int _titleName;
 
         public BaseActivity(int navMenuItem, int titleName)
         {
-            this.navMenuItem = navMenuItem;
-            this.titleName = titleName;
+            _navMenuItem = navMenuItem;
+            _titleName = titleName;
         }
 
         public override void SetContentView(int layoutResID)
         {
-            view = (DrawerLayout)LayoutInflater.Inflate(Resource.Layout.BaseActivity, null);
-            FrameLayout activityContainer = view.FindViewById<FrameLayout>(Resource.Id.activity_content);
+            _view = (DrawerLayout)LayoutInflater.Inflate(Resource.Layout.BaseActivity, null);
+            var activityContainer = _view.FindViewById<FrameLayout>(Resource.Id.activity_content);
             LayoutInflater.Inflate(layoutResID, activityContainer, true);
-            base.SetContentView(view);
+            base.SetContentView(_view);
 
-            toolbar = FindViewById<Toolbar>(Resource.Id.toolbar);
-            SetSupportActionBar(toolbar);
-            SupportActionBar.SetTitle(titleName);
+            _toolbar = FindViewById<Toolbar>(Resource.Id.toolbar);
+            SetSupportActionBar(_toolbar);
+            SupportActionBar.SetTitle(_titleName);
 
             var drawerToggle = new ActionBarDrawerToggle
-                (this, view, toolbar, Resource.String.nav_open, Resource.String.nav_close);
-            view.AddDrawerListener(drawerToggle);
+                (this, _view, _toolbar, Resource.String.nav_open, Resource.String.nav_close);
+            _view.AddDrawerListener(drawerToggle);
             drawerToggle.SyncState();
 
-            navigationView = FindViewById<NavigationView>(Resource.Id.navigation_view);
-            navigationView.NavigationItemSelected += NavigationView_NavigationItemSelected;
+            _navigationView = FindViewById<NavigationView>(Resource.Id.navigation_view);
+            _navigationView.NavigationItemSelected += NavigationView_NavigationItemSelected;
         }
 
         private void NavigationView_NavigationItemSelected(object sender, NavigationView.NavigationItemSelectedEventArgs e)
@@ -52,12 +52,12 @@ namespace ComciganViewer.Code.Activity
                 menuItem.SetChecked(true);
             }
 
-            view.CloseDrawers();
+            _view.CloseDrawers();
 
             switch (menuItem.ItemId)
             {
                 case Resource.Id.nav_timetable_student:
-                    if (navMenuItem != Resource.Id.nav_timetable_student)
+                    if (_navMenuItem != Resource.Id.nav_timetable_student)
                     {
                         StartActivity(typeof(StudentTimetableActivity));
                         Finish();
@@ -65,7 +65,7 @@ namespace ComciganViewer.Code.Activity
                     break;
 
                 case Resource.Id.nav_timetable_teacher:
-                    if (navMenuItem != Resource.Id.nav_timetable_teacher)
+                    if (_navMenuItem != Resource.Id.nav_timetable_teacher)
                     {
                         StartActivity(typeof(TeacherTimetableActivity));
                         Finish();
@@ -85,7 +85,7 @@ namespace ComciganViewer.Code.Activity
         public override bool OnCreateOptionsMenu(IMenu menu)
         {
             var id = 0;
-            switch (navMenuItem)
+            switch (_navMenuItem)
             {
                 case Resource.Id.nav_timetable_student:
                     id = Resource.Id.nav_timetable_student;
@@ -99,7 +99,7 @@ namespace ComciganViewer.Code.Activity
                     break;
             }
 
-            navigationView.SetCheckedItem(id);
+            _navigationView.SetCheckedItem(id);
             return true;
         }
     }

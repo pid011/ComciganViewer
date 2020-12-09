@@ -1,11 +1,11 @@
-﻿using Android.App;
+﻿using System;
+using Android.App;
 using Android.Content;
 using Android.OS;
 using Android.Support.V7.App;
 using Android.Views;
 using Android.Widget;
 using Xamarin.Essentials;
-using System;
 using AlertDialog = Android.Support.V7.App.AlertDialog;
 using Toolbar = Android.Support.V7.Widget.Toolbar;
 
@@ -14,7 +14,7 @@ namespace ComciganViewer.Code.Activity
     [Activity]
     public class AboutMeActivity : AppCompatActivity
     {
-        private AlertDialog.Builder builder;
+        private AlertDialog.Builder _builder;
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
@@ -28,9 +28,9 @@ namespace ComciganViewer.Code.Activity
             SupportActionBar.SetDisplayHomeAsUpEnabled(true);
             SupportActionBar.SetDisplayShowHomeEnabled(true);
 
-            Button sendMailButton = FindViewById<Button>(Resource.Id.send_mail_button);
-            Button goToGitHubButton = FindViewById<Button>(Resource.Id.go_to_github);
-            Button openRemarksButton = FindViewById<Button>(Resource.Id.open_remark);
+            var sendMailButton = FindViewById<Button>(Resource.Id.send_mail_button);
+            var goToGitHubButton = FindViewById<Button>(Resource.Id.go_to_github);
+            var openRemarksButton = FindViewById<Button>(Resource.Id.open_remark);
 
             sendMailButton.Click += SendMailButton_Click;
             goToGitHubButton.Click += GoToGitHubButton_Click;
@@ -43,12 +43,12 @@ namespace ComciganViewer.Code.Activity
 
         private void OpenRemarksButton_Click(object sender, EventArgs e)
         {
-            builder = new AlertDialog.Builder(this);
-            builder
+            _builder = new AlertDialog.Builder(this);
+            _builder
                 .SetTitle(Resource.String.aboutme_remark_title)
                 .SetMessage(Resource.String.aboutme_remark_text)
                 .SetNeutralButton(Resource.String.aboutme_remark_ok, delegate { });
-            builder.Create().Show();
+            _builder.Create().Show();
         }
 
         private void GoToGitHubButton_Click(object sender, EventArgs e)
@@ -61,9 +61,9 @@ namespace ComciganViewer.Code.Activity
 
         private void SendMailButton_Click(object sender, EventArgs e)
         {
-            Intent email = new Intent(Intent.ActionSend);
+            var email = new Intent(Intent.ActionSend);
             email.SetType("plain/text");
-            String[] address = { GetString(Resource.String.email_address) };
+            string[] address = { GetString(Resource.String.email_address) };
             email.PutExtra(Intent.ExtraEmail, address);
             email.PutExtra(Intent.ExtraSubject, GetString(Resource.String.email_subject));
             email.PutExtra(Intent.ExtraText, GetString(Resource.String.email_text));

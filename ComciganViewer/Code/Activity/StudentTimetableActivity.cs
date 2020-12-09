@@ -18,9 +18,8 @@ namespace ComciganViewer.Code.Activity
 
             SetContentView(Resource.Layout.Webview);
 
-            WebViewUtil.ConfigWebView_Timetable
-                (GetString(Resource.String.comcigan_student_adress),
-                FindViewById<WebView>(Resource.Id.webview));
+            var webview = FindViewById<WebView>(Resource.Id.webview);
+            WebViewUtil.ConfigWebView_Timetable(GetString(Resource.String.comcigan_student_adress), webview);
         }
     }
 }
